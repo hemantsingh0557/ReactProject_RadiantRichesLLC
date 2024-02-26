@@ -27,6 +27,9 @@ export default {
         "bg_rating": "rgba(243, 249, 255, 1)",
         "col_rating": "rgba(7, 71, 134, 1)",
         "bg_view_col":"rgba(27, 136, 244, 1)"
+      },
+      inset:{
+         "n-12px":"-12px"
       }
     },
   },
