@@ -103,7 +103,8 @@ const Home = () => {
                   <p>{item.feedback}</p>
                   <img className='p-1 lg:p-2' src={item.stars} alt="ok" />
                 </div>
-                <div className='bg-bg_view_col text-[14px] lg:text-[16px] text-white rounded-xl h-10 lg:h-view_h w-24 lg:w-view_w flex items-center justify-center'> View </div>
+                <button className='bg-bg_view_col text-[14px] lg:text-[16px] text-white rounded-xl h-10 lg:h-view_h w-24 lg:w-view_w flex items-center justify-center'> View </button>
+                {/* <div className='bg-bg_view_col text-[14px] lg:text-[16px] text-white rounded-xl h-10 lg:h-view_h w-24 lg:w-view_w flex items-center justify-center'> View </div> */}
               </div>
             </div>
           ))}
@@ -180,7 +181,8 @@ const Home = () => {
                 <p>Very Good</p>
                 <img className='p-1 lg:p-2' src={Stars4} alt="ok" />
               </div>
-              <div className='bg-bg_view_col text-[14px] lg:text-[16px] text-white rounded-xl h-10 lg:h-view_h w-24 lg:w-view_w flex items-center justify-center'> View </div>
+              <button className='bg-bg_view_col text-[14px] lg:text-[16px] text-white rounded-xl h-10 lg:h-view_h w-24 lg:w-view_w flex items-center justify-center'> View </button>
+              {/* <div className='bg-bg_view_col text-[14px] lg:text-[16px] text-white rounded-xl h-10 lg:h-view_h w-24 lg:w-view_w flex items-center justify-center'> View </div> */}
             </div>
           </div>
         </div>
@@ -210,7 +212,8 @@ const Home = () => {
                 <span className='text-gray-400 text-[12px] lg:text-[14px] ml-2 lg:ml-3 mt-2'>{item.mrp}</span>
                 <span className='text-red-500 text-[12px] lg:text-[14px] ml-2 lg:ml-3 mt-2'>({item.offer})</span>
               </p>
-              <div className='bg-bg_view_col text-[12px] lg:text-[16px] text-gray-50 rounded-xl h-8 lg:h-10 w-1/2 lg:w-card_w mx-auto flex items-center justify-center mt-2 lg:mt-0'> View Deal </div>
+              <button className='bg-bg_view_col text-[12px] lg:text-[16px] text-gray-50 rounded-xl h-8 lg:h-10 w-1/2 lg:w-card_w mx-auto flex items-center justify-center mt-2 lg:mt-0'> View Deal </button>
+              {/* <div className='bg-bg_view_col text-[12px] lg:text-[16px] text-gray-50 rounded-xl h-8 lg:h-10 w-1/2 lg:w-card_w mx-auto flex items-center justify-center mt-2 lg:mt-0'> View Deal </div> */}
             </div>
 
           </div>
@@ -222,7 +225,8 @@ const Home = () => {
       <div className='flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 md:justify-normal lg:justify-around w-full border-red-500 p-4'>
         <div className='bg--500 sm:text-[14px] text-[11px]  text-gray-500 w-full  whitespace-nowrap  text-center md:text-left md:w-3/4  md:text-[25px] md:py-3'> Sign up and get exclusive special deals </div>
         <div className='flex justify-center items-center w-full lg:w-fit'> 
-          <p className='h-12 lg:h-14 text-[14px] lg:text-[14px] bg-blue-500 lg:w-32 text-white rounded-xl flex items-center justify-center w-1/2'> Sign Up </p>
+          <button className='h-12 lg:h-14 text-[14px] lg:text-[14px] bg-blue-500 lg:w-32 text-white rounded-xl flex items-center justify-center w-1/2'> Sign Up </button>
+          {/* <p className='h-12 lg:h-14 text-[14px] lg:text-[14px] bg-blue-500 lg:w-32 text-white rounded-xl flex items-center justify-center w-1/2'> Sign Up </p> */}
         </div>
       </div>
 
