@@ -1,7 +1,7 @@
 # React FrontEnd Web Page Project
 
 This is a simple React project where I have created the frontend part of a web page based on given Figma files using React, Vite, and Tailwind CSS. The webpage is fully responsive and works well on various devices including smartphones, tablets, iPads, laptops, desktops, and others.
-
+  
 ## Instructions
 
 1. Clone this repository: `git clone https://github.com/hemantsingh0557/ReactProject_RadiantRichesLLC.git` 
