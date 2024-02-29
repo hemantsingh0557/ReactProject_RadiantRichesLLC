@@ -8,7 +8,8 @@ This is a simple React project where I have created the frontend part of a web p
 2. Install dependencies: `npm install`
 3. Set up Tailwind CSS
 4. Start the project: `npm run dev`
-
+  
+  
 ## Features
 
 - **Responsive Design:** The webpage is designed to work perfectly on all types of devices including smartphones, tablets, iPads, laptops, desktops, and others.
