@@ -4,7 +4,7 @@ This is a simple React project where I have created the frontend part of a web p
 
 ## Instructions
 
-1. Clone this repository: `git clone https://github.com/hemantsingh0557/ReactProject_RadiantRichesLLC_Internshala.git`
+1. Clone this repository: `https://github.com/hemantsingh0557/ReactProject_RadiantRichesLLC.git`
 2. Install dependencies: `npm install`
 3. Set up Tailwind CSS
 4. Start the project: `npm run dev`
